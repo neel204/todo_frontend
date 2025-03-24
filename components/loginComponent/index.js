@@ -43,6 +43,7 @@ const LoginComponent = ({ formForLogin, setFormLogin }) => {
 
   // Mock login request function (replace with actual request)
   const mockLoginRequest = async (data) => {
+    // eslint-disable-next-line no-undef
     return new Promise((resolve) => {
       setTimeout(() => resolve({ status: true }), 1000);
     });

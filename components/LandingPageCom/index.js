@@ -1,7 +1,6 @@
 "use client";
 
 import { FaTasks } from "react-icons/fa";
-import { IoPersonCircleOutline } from "react-icons/io5";
 import { MdCheckCircle } from "react-icons/md";
 import { BiSolidRightArrow } from "react-icons/bi";
 import { useEffect, useState } from "react";
@@ -43,12 +42,12 @@ const LandingPageComponent = () => {
             </p>
             <div className="flex items-center gap-3 mt-8 md:-mb-4">
               <button
-                className="px-4 py-2 rounded-sm text-white bg-black"
+                className="px-4 py-2 rounded-md text-white bg-black"
                 onClick={() => router.push("/login")}
               >
                 Start now
               </button>
-              <button className="px-4 py-2 rounded-sm text-black bg-white">
+              <button className="px-4 py-2 rounded-md text-black bg-white">
                 Try demo
               </button>
             </div>

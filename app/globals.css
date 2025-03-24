@@ -11,6 +11,11 @@ body {
   /* overflow-x: hidden; remove this after animation */
 }
 
+button,
+a {
+  cursor: pointer;
+}
+
 html,
 body {
   padding: 0;
